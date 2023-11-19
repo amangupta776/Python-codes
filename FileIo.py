@@ -1,0 +1,13 @@
+f=open("file.txt","r")
+a=f.read()
+print(a)
+f.close()
+f=open("file.txt","a")
+f.write(" hello")
+f.close()
+
+f=open("file.txt","r")
+a=f.read()
+print(a)
+a=f.read()
+print(a)
